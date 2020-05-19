@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.zhihu.matisse.internal.model']/class[@name='AlbumMediaCollection']/method[@name='onLoadFinished' and count(parameter)=2 and parameter[1][@type='androidx.loader.content.Loader&lt;android.database.Cursor&gt;'] and parameter[2][@type='android.database.Cursor']]/parameter[@name='data']" name="type">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.zhihu.matisse.internal.model']/class[@name='AlbumCollection']/method[@name='onLoadFinished' and count(parameter)=2 and parameter[1][@type='androidx.loader.content.Loader&lt;android.database.Cursor&gt;'] and parameter[2][@type='android.database.Cursor']]/parameter[@name='data']" name="type">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.zhihu.matisse.internal.ui.adapter']/class[@name='AlbumMediaAdapter']/method[@name='getItemViewType' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.database.Cursor']]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.zhihu.matisse.internal.ui.adapter']/class[@name='RecyclerViewCursorAdapter']/method[@name='onBindViewHolder']/parameter[@type='VH']" name="type">AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder</attr>
+    <add-node path="/api/package[@name='com.zhihu.matisse.internal.ui.adapter']/class[@name='AlbumMediaAdapter']">
+        <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
+            <parameter name="holder" type="AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder" />
+            <parameter name="position" type="int" />
+        </method>
+    </add-node>
+    <remove-node path="/api/package[@name='com.zhihu.matisse.internal.ui.adapter']/interface[@name='PreviewPagerAdapter.OnPrimaryItemSetListener']" />
+</metadata>

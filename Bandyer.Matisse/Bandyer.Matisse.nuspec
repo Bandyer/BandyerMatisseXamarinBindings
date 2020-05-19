@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Bandyer.Matisse</id>
+    <version>0.0.1</version>
+    <title>Bandyer.Matisse</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,matisse,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <copyright>Copyright © Bandyer</copyright>
+    <description>Bandyer's Matisse bindings for Xamarin</description>
+    <summary>Bandyer's Matisse bindings for Xamarin</summary>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+         <dependency id="Naxam.Sephiroth.ImageZoom.Droid" version="1.0.4.1" />
+         <dependency id="Xamarin.AndroidX.RecyclerView" version="1.1.0" />
+         <dependency id="Xamarin.AndroidX.Annotation" version="1.1.0" />
+         <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./bin/Release/Bandyer.Matisse.*" target="lib/MonoAndroid" />
+  </files>
+</package>
